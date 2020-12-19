@@ -1,0 +1,19 @@
+body {
+		background-image: url(gambar/bg3.png);
+		background-repeat: ;
+		font-family: sans-serif;
+}
+body h1 {
+	color: red;
+	font-size: 50px;
+	font-variant: small-caps;
+	font-style: oblique;
+	text-decoration: underline;
+}
+body p {
+	color: orange;
+	line-height: 20px;
+	text-align: justify;
+	text-indent: 20px;
+	word-spacing: 5px;
+}
