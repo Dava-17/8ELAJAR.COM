@@ -1,0 +1,9 @@
+# Group 1
+User-agent: Googlebot
+Disallow: /blank.html
+
+# Group 2
+User-agent: *
+Allow: /
+
+Sitemap: https://www.8elajar.com/sitemap.xml

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BLANK</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/png" href="img/logo.ico">
+	<link rel="stylesheet" type="text/css" href="framework/css/blank.css">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudblank.htmlflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script>
+	document.onkeydown = function(e) {
+	        if (e.ctrlKey && 
+	            (e.keyCode === 67 || 
+	             e.keyCode === 86 || 
+	             e.keyCode === 85 || 
+	             e.keyCode === 117)) {
+	            return false;
+	        } else {
+	            return true;
+	        }
+	};
+	$(document).keypress("u",function(e) {
+	  if(e.ctrlKey)
+	  {
+	return false;
+	}
+	else
+	{
+	return true;
+	}
+	});
+	</script>
+	
+</head>
+<body>
+	<div class="gambar">
+		<button class="back" onclick="goBack()"><i class="fa fa-arrow-left fa-7x"aria-hidden="true"></i></button>
+
+		<script type="text/javascript">
+			function goBack() {
+				window.history.back();
+			}
+		</script>
+	</div>
+</body>
+</html>

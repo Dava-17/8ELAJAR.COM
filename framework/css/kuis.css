@@ -1,0 +1,542 @@
+body {
+  margin: 0px;
+  height: 100%;
+  width: 100% 100%;
+  background-color: #FF4500; 
+}
+.top {
+  background-color: #FF4500;
+  background-size: 100% 100%;
+  height: 80px;
+  width: 100%;
+  display: inline;
+  overflow: hidden;
+  position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+}
+.logo {
+  float: right;
+  height: 70px;
+  width: 80px;
+  margin-top: 5px;
+  margin-right: 40px;
+}
+.hal-utama {
+  margin-left: 30px;
+  margin-top: 30px;
+  float: left;
+}
+#halut .fa {
+  font-size: 25px;
+  padding-right: 5px;
+}
+.hal-utama p {
+  color: white;
+  font-size: 18px;
+  font-family: arial;
+  font-weight: bold;
+  letter-spacing: .1vw;
+}
+.hal-utama a {
+  color: white;
+  text-decoration: none;
+}
+.hal-utama a:hover {
+  color: white;
+  text-decoration: none;
+}
+.hubungikami button {
+  background-color: transparent;
+  margin-left: 20px;
+}
+.message {
+  line-height: 10px;
+  background-color: transparent;
+  border : transparent;
+  color: white;
+  margin-top: 30px;
+  font-size: 18px;
+  font-family: arial;
+  font-weight: bold;
+  letter-spacing: .1vw;
+  width: 190px;
+}
+.message span {
+  font-size: 25px;
+  font-weight: bold;
+}
+.message a {
+  color: white;
+  text-decoration: none;
+}
+.message a:hover {
+  color: white;
+  text-decoration: none;
+}
+.judul {
+  margin-top: -33px;
+  font-size: 32px;
+  color: white;
+  text-align: center;
+  font-family: arial;
+  font-weight: bold;
+}
+
+
+
+
+.main {
+  width: 100%;
+  height: 700px;
+  background-color: white;
+  margin-top: 80px;
+  padding-top: 30px;
+  display: block;
+  overflow: hidden;
+}
+#soal {
+  width: 50%;
+  height: 320px;
+  border: 1px solid black;
+  margin-left: 50px;
+}
+.carousel-item img {
+  width: 100%;
+  height: 318px;
+}
+#pilihan {
+  width: 100%;
+  height: 250px;
+  margin-left: 50px;
+}
+#question {
+  margin-top: 10px;
+  color: black;
+  font-size: 20px;
+}
+.li {
+  margin-left: 30px;
+}
+.li input {
+  margin-right: 10px;
+  width: 15px;
+  height: 15px;
+}
+
+
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  height: 55px;
+  background-color: #FF4500;
+}
+#restart {
+  margin-top: 10px;
+  width: 90px;
+  height: 40px;
+  display: inline-block;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 8px;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 10px;
+}
+#restart:hover {
+  border: 2px solid white;
+  background-color: #FF4500;
+  color: white;
+}
+#next , #prev , #submit {
+  margin-top: 15px;
+  width: 120px;
+  height: 28px;
+  display: inline-block;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 8px;
+}
+#prev {
+  margin-left: 50px;
+}
+#next {
+  margin-left: 10px;
+}
+#restart {
+  float: right;
+  margin-right: 46.5%;
+}
+#submit {
+  float: right;
+  margin-right: 20px;
+}
+#next a , #prev a , #submit a {
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+
+#hasil {
+  margin-top: -40px;
+  font-family: arial;
+  font-size: 250px;
+  text-align : center;
+  color: #ff3300;
+}
+#rendah , #sedang , #tinggi {
+  font-size: 48px;
+  text-align: center;
+}
+
+
+@media  (min-width: 1700px) and (max-width: 3500px) {
+  .message {
+  line-height: 10px;
+  background-color: transparent;
+  border : transparent;
+  color: white;
+  margin-top: 30px;
+  font-size: 18px;
+  font-family: arial;
+  font-weight: bold;
+  letter-spacing: .1vw;
+  width: 280px;
+}
+.message span {
+  font-size: 25px;
+  font-weight: bold;
+}
+  .main {
+  width: 100%;
+  height: 800px!important;
+  background-color: white;
+  margin-top: 80px;
+  padding-top: 30px;
+  display: block;
+  overflow: hidden;
+  }
+  #soal {
+  width: 50%;
+  height: 500px;
+  border: 1px solid black;
+  margin-left: 50px;
+}
+.carousel-item img {
+  width: 100%;
+  height: 495px;
+  }
+#pilihan {
+  width: 100%;
+  height: 250px;
+  margin-left: 50px;
+}
+#question {
+  margin-top: 10px;
+  color: black;
+  font-size: 24px;
+}
+.li {
+  margin-left: 30px;
+}
+.li input {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  }
+  #hasil {
+  margin-top: 100px;
+  font-family: arial;
+  font-size: 350px;
+  text-align : center;
+  color: #ff3300;
+  }
+}
+
+@media (max-width: 1150px) {
+  #soal {
+  width: 550px;
+  height: 320px;
+  border: 1px solid black;
+  margin-left: 50px;
+}
+.carousel-item img {
+  width: 100%;
+  height: 318px;
+  }
+}
+
+
+@media (max-width: 1100px) {
+  #hasil {
+  font-family: arial;
+  font-size: 200px;
+  text-align : center;
+  color: #ff3300;
+  margin-top : 30px;
+}
+
+
+@media (max-width: 950px) {
+  #soal {
+  width: 70%;
+  height: 320px;
+  border: 1px solid black;
+  margin-left: 50px;
+}
+.carousel-item img {
+  width: 100%;
+  height: 318px;
+  }
+}
+
+@media (max-width: 900px) {
+  .judul {
+    display: none;
+  }
+}
+
+@media (max-width: 850px) {
+  #hasil {
+  font-family: arial;
+  font-size: 150px;
+  text-align : center;
+  color: #ff3300;
+  margin-top : 50px;
+}
+
+
+@media (max-width: 730px) {
+  #soal {
+  width: 550px;
+  height: 300px;
+  border: 1px solid black;
+  margin-left: 50px;
+  }
+  .carousel-item img {
+  width: 100%;
+  height: 298px;
+  }
+}
+
+@media (max-width: 650px) {
+  #hasil {
+  font-family: arial;
+  font-size: 100px;
+  text-align : center;
+  color: #ff3300;
+  margin-top : 100px;
+}
+
+@media (max-width: 630px) {
+  #soal {
+  width: 450px;
+  height: 300px;
+  border: 1px solid black;
+  margin-left: 50px;
+  }
+  .carousel-item img {
+  width: 100%;
+  height: 298px;
+  }
+}
+
+@media (max-width: 520px) {
+  #soal {
+  width: 450px;
+  height: 300px;
+  border: 1px solid black;
+  margin-left: 30px;
+  }
+  .carousel-item img {
+  width: 100%;
+  height: 298px;
+  }
+  #pilihan {
+  width: 100%;
+  height: 250px;
+  margin-left: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .top {
+  background-color: #FF4500;
+  background-size: 100% 100%;
+  height: 60px;
+  width: 100%;
+  display: inline;
+  overflow: hidden;
+  position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+}
+.logo {
+  float: right;
+  height: 50px;
+  width: 55px;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+.hal-utama {
+  margin-left: 15px;
+  margin-top: 20px;
+  float: left;
+}
+#halut .fa {
+  font-size: 19px;
+  padding-right: 5px;
+}
+.hal-utama p {
+  color: white;
+  font-size: 15px;
+  font-family: arial;
+  font-weight: bold;
+  letter-spacing: .1vw;
+}
+.hal-utama a {
+  color: white;
+  text-decoration: none;
+}
+.hal-utama a:hover {
+  color: white;
+  text-decoration: none;
+}
+.hubungikami button {
+  background-color: transparent;
+  margin-left: 0px;
+  font-size: 15px;
+}
+.message {
+  background-color: transparent;
+  border : transparent;
+  color: white;
+  margin-top: 20px;
+  font-size: 15px;
+  font-family: arial;
+  font-weight: bold;
+  letter-spacing: .1vw;
+  width: 190px;
+}
+.message span {
+  font-size: 19px;
+  font-weight: bold;
+}
+.message a {
+  color: white;
+  text-decoration: none;
+}
+.message a:hover {
+  color: white;
+  text-decoration: none;
+}
+.judul {
+  margin-top: -33px;
+  font-size: 32px;
+  color: white;
+  text-align: center;
+  font-family: arial;
+  font-weight: bold;
+}
+  #soal {
+  width: 330px;
+  height: 320px;
+  border: 1px solid black;
+  margin-left: 15px;
+  }
+  .carousel-item img {
+  width: 100%;
+  height: 298px;
+  }
+  #question p {
+  margin-left: 15px;
+  margin-top: 10px;
+  color: black;
+  font-size: 16px;
+  }
+  #pilihan {
+  width: 100%;
+  height: 250px;
+  margin-left: 0px;
+  }
+
+  footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  height: 55px;
+  background-color: #FF4500;
+  }
+
+  #next , #prev , #submit{
+    margin-top: 15px;
+    width: 50px;
+    height: 28px;
+    display: inline-block;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 8px;
+  }
+  #restart {
+    margin-top: 5px;
+    width: 80px;
+    height: 45px;
+    display: inline-block;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 8px;
+  }
+  #prev {
+    margin-left: 30px;
+  }
+  #next {
+    margin-left: 30px;
+  }
+  #submit {
+    width: 100px;
+    position: absolute;
+    float: left;
+    margin-left: 60px;
+  }
+  #restart {
+  float: right;
+  margin-right: 40%;
+}
+  }
+  #next a , #prev a , #submit a{
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+
+  #hasil {
+  font-family: arial;
+  font-size: 70px;
+  text-align : center;
+  color: #ff3300;
+  }
+  #rendah , #sedang , #tinggi {
+  font-size: 32px;
+  text-align: center;
+  }
+}

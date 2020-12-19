@@ -1,0 +1,395 @@
+body {
+	margin: 0px;
+	background-color: #20252d;
+
+}
+.top {
+	height: 80px;
+	width: 100%;
+	background-color: #20252d	;
+	border-bottom: transparent;
+}
+.back {
+	margin-top: 5px;
+	margin-left: 5px;
+	font-size: 60px;
+	background-color: transparent;
+	border: transparent;
+	color: white;
+	position: fixed;
+}
+.back:hover {
+	color: black;
+}
+.main {
+	margin-top: -35px;
+	display: inline-flex;
+	height: 200px;
+	width: 100%;
+	background-color: #20252d	;
+}
+.logo {
+	margin-top: 0px;
+	height: 200px;
+	width: 200px;
+	border: transparent;
+	margin-left: 150px;
+}
+.batas {
+	margin-top: 0px;
+	height: 200px;
+	width: 100px;
+	border: transparent;
+}
+.garis {
+	margin-top: 40px;
+	height: 120px;
+	width: 10px;
+	border: transparent;
+	background-color: white;
+	border-radius: 2em;
+	margin-left: 45px;
+}
+.deskripsi {
+	margin-top: 5px;
+	height: 200px;
+	width: 750px;
+	border: transparent;
+	overflow: hidden;
+}
+.deskripsi p {
+	color: white;
+	margin-left: 15px;
+	margin-top: 10px;
+	font-size: 28px;
+	font-weight: bold;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+}
+.footer {
+	height: 375px;
+	width: 100%;
+	background-color: black;
+	display: flex;
+	overflow: hidden;
+}
+.wrap {
+	height: 360px;
+	width: 100%;
+	margin: 5px;
+}
+.inwrap {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 5px;
+	padding: 5px;
+	margin: 0px;
+	justify-content: center;
+}
+.foto {
+	background-color: transparent;
+	width: 210px;
+	height: 150px;
+	margin-right: 25px;
+	margin-left: 25px;
+	margin-top: 20px;
+	padding: 0px;
+}
+.foto1 {
+	background-color: transparent;
+	width: 210px;
+	height: 150px;
+	margin-right: 25px;
+	margin-left: 25px;
+	margin-top: 20px;
+	padding: 0px;
+}
+.kom2 {
+	height: 100px;
+	width: 110px;
+}
+.kom2:hover {
+	height: 120px;
+	width: 130px;
+}
+p {
+	margin-top: 5px;
+	font-size: 20px;
+	color: white;
+	border: transparent;
+}
+.nasya {
+	height: 100px;
+	width: 110px;
+}
+.ghifar {
+	height: 100px;
+	width: 110px;
+}
+.nasyap {
+	font-size: 16px;
+}
+.ghifarp {
+	font-size: 16.5px;
+}
+span {
+	font-size: 19px;
+}
+
+
+
+@media (max-width: 1336px){
+	.footer {
+	height: 530px;
+	}
+}
+
+@media (max-width: 1132px){
+	.main {
+	margin-left: -50px;
+	}
+	.logo {
+	margin-top: 15px;
+	height: 170px;
+	width: 170px;
+	border: transparent;
+	margin-left: 150px;
+}
+	.batas {
+	margin-top: 0px;
+	height: 200px;
+	width: 100px;
+	border: transparent;
+	}
+	.garis {
+	margin-top: 40px;
+	height: 120px;
+	width: 10px;
+	border: transparent;
+	background-color: white;
+	border-radius: 2em;
+	margin-left: 45px;
+	}
+	.deskripsi p {
+	color: white;
+	margin-top: 20px;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	}
+}
+
+
+@media (max-width: 1028px){
+	.main {
+		margin-top: -50px;
+		height: 190px;
+	}
+	.logo {
+	margin-top: 30px;
+	height: 130px;
+	width: 130px;
+	border: transparent;
+	margin-left: 150px;
+	}
+	.batas {
+	margin-top: -5px;
+	height: 200px;
+	width: 100px;
+	border: transparent;
+	}
+	.garis {
+	margin-top: 50px;
+	height: 100px;
+	width: 10px;
+	border: transparent;
+	background-color: white;
+	border-radius: 2em;
+	margin-left: 20px;
+	}
+	.deskripsi {
+		margin-top: 15px;
+		width: 100%;
+	}
+	.deskripsi p {
+		margin-top: 15px;
+		font-size: 22px;
+	}
+}
+
+@media (max-width: 904px){
+	.logo {
+		margin-left: 100px;
+	}
+	.batas {
+	margin-top: -5px;
+	height: 200px;
+	width: 100px;
+	border: transparent;
+	}
+	.garis {
+	margin-top: 50px;
+	height: 100px;
+	width: 7px;
+	border: transparent;
+	background-color: white;
+	border-radius: 2em;
+	margin-left: 13px;
+	}
+	.deskripsi {
+		margin-top: 20px;
+		margin-left: -30px;
+	}
+	.deskripsi p {
+	font-size: 20px;
+	}
+}
+
+@media (max-width: 816px){
+	.footer {
+	height: 870px;
+	}
+	.back:hover {
+		color: red;
+	}
+}
+
+@media (max-width: 785px) {
+	.back {
+	margin-top: 5px;
+	margin-left: 10px;
+	font-size: 40px;
+	}
+	.logo {
+	margin-left: 70px;
+	margin-top: 30px;
+	height: 115px;
+	width: 115px;
+	border: transparent;
+	}
+	.batas {
+	margin-top: -5px;
+	height: 125px;
+	width: 70px;
+	border: transparent;
+	}
+	.garis {
+	margin-top: 50px;
+	height: 85px;
+	width: 5px;
+	border: transparent;
+	background-color: white;
+	border-radius: 2em;
+	margin-left: 10px;
+	}
+	.deskripsi {
+	margin-top: 10px;
+	}
+}
+
+@media (max-width: 725px) {
+	.logo {
+		height: 110px;
+		width: 110px;
+	}
+	.garis {
+		margin-top: 55px;
+		height: 80px;
+	}
+	.deskripsi {
+		margin-top: 20px;
+	}
+	.deskripsi p {
+		font-size: 18px;
+	}
+}
+
+@media (max-width: 677px) {
+	.main {
+	height: 180px;
+	width: 650px;
+	}
+	.logo {
+	height: 95px;
+	width: 95px;
+	}
+	.batas {
+	margin-top: -5px;
+	height: 100px;
+	width: 5px;
+	border: transparent;
+	}
+	.garis {
+	margin-top: 50px;
+	height: 60px;
+	width: 4px;
+	border: transparent;
+	background-color: white;
+	border-radius: 2em;
+	margin-left: 5px;
+	}
+	.deskripsi {
+		margin-top: 15px;
+		margin-left: 7px;
+		height: 140px;
+	}
+	.deskripsi p {
+	font-size: 18px;
+	}
+}
+
+@media (max-width: 623px) {
+	.main {
+	width: 100%;
+	}
+	.break {
+		display: none;
+	}
+	.deskripsi {
+	margin-top: 5px;
+	}
+	.deskripsi p {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 565px) {
+	.main {
+	width: 107%;
+	height: 180px;
+	}
+	.logo {
+		margin-top: 40px;
+		width: 90px;
+		height: 90px;
+		margin-left: 55px;
+	}
+	.garis {
+		margin-top: 60px;
+	}
+	.deskripsi {
+		height: 190px;
+	}
+}
+
+@media (max-width: 640px) {
+	.footer {
+		height: 1550px;
+	}
+}
+
+@media (max-width: 480px){
+	.main {
+	width: 110%;
+	height: 200px;
+	}
+	.deskripsi p {
+	font-size: 15px;
+	}
+	.footer {
+	height: 1570px;
+	}
+}

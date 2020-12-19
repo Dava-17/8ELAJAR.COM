@@ -1,0 +1,189 @@
+body,html {
+	margin: 0;
+	padding: 0;
+	background-color: #303030;
+	text-decoration: none;
+}
+.top {
+	width: 100%;
+	height: 100px;
+	background-color: #FF4500;
+}
+.logo {
+	height: 80px;
+	width: 90px;
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+.back {
+	background-color: transparent;
+	border: none;
+	font-size: 60px;
+	margin-top: 12px;
+	margin-left: 5px;
+}
+h1 {
+	font-size: 60px;
+	display: inline;
+	font-family: 'Lora', serif;
+	margin-left: 20px;
+	letter-spacing: 3px;
+}
+.main {
+	height: 640px;
+	width: 100%;
+}
+.wrap {
+	height: 640px;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 40px;
+	justify-content: center;
+	overflow: hidden;
+}
+.buku1 {
+	height: 290px;
+	width: 200px;
+	margin: 20px;
+	background-color: #de4f16 ;
+	text-align: center;
+}
+.bindo {
+	height: 250px;
+	width: 200px;
+}
+.label1 {
+	font-size: 25px;
+	color: white;
+	display: inline;
+	background-color: #de4f16 ;
+	font-family: 'Inconsolata', monospace;
+}
+.label {
+	font-size: 28px;
+	color: white;
+	display: inline;
+	background-color: #de4f16 ;
+	font-family: 'Inconsolata', monospace;
+}
+a {
+	text-decoration: none;
+}
+
+
+@media (max-width: 1296px) {
+	.main {
+		height: 970px;
+	}
+	.wrap {
+		height: 970px;
+	}
+}
+
+@media (max-width: 816px) {
+	.main {
+		height: 1630px;
+	}
+	.wrap {
+		height: 1630px;
+	}
+}
+
+
+@media (max-width: 790px) {
+	h1 {
+	font-size: 50px;
+	letter-spacing: 1.5px;
+	}
+}
+
+@media (max-width: 680px) {
+	h1 {
+	font-size: 42px;
+	margin-left: 20px;
+	letter-spacing: 1px;
+	}
+}
+
+@media (max-width: 600px) {
+	h1 {
+	font-size: 36px;
+	margin-left: 10px;
+	letter-spacing: 1px;
+	}
+	.logo {
+	height: 60px;
+	width: 70px;
+	float: right;
+	margin-top: 20px;
+	margin-right: 10px;
+	}
+	.back {
+		background-color: transparent;
+		border: none;
+		font-size: 50px;
+		margin-top: 15px;
+		margin-left: 5px;
+	}
+}
+
+@media (max-width: 576px) {
+	.main {
+		height: 2945px;
+	}
+	.wrap {
+		height: 2945px;
+	}
+}
+
+@media (max-width: 490px) {
+	.top {
+		height: 60px;
+	}
+	.back {
+		background-color: transparent;
+		border: none;
+		font-size: 30px;
+		margin-top: 13px;
+		margin-left: 3px;
+	}
+	h1 {
+		font-size: 28px;
+		margin-left: 0px;
+	}
+	.logo {
+	height: 45px;
+	width: 50px;
+	float: right;
+	margin-top: 8px;
+	margin-right: 5px;
+	}
+	.main {
+		height: 3200px;
+	}
+	.wrap {
+		height: 2950px;
+	}
+}
+
+@media (max-width: 370px) {
+	.back {
+		background-color: transparent;
+		border: none;
+		font-size: 28px;
+		margin-top: 13px;
+		margin-left: 2px;
+	}
+	h1 {
+		font-size: 23px;
+		margin-left: 0px;
+	}
+	.logo {
+	height: 45px;
+	width: 50px;
+	float: right;
+	margin-top: 8px;
+	margin-right: 5px;
+	}
+}

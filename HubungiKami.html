@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hubungi Kami | 8ELAJAR</title>
+	<link rel="stylesheet" type="text/css" href="framework/css/mail.css">
+	<link rel="icon" type="image/png" href="img/logo.ico">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Website ini memuat materi pelajaran siswa kelas XI MIPA SMAN 8 Jakarta. Rangkuman materi pada website ini terdiri dari 5 pelajaran utama, yaitu Fisika, Kimia, Biologi, Matematika Wajib, dan Matematika Minat.">
+  	<meta name="keywords" content="8elajar,gemerlapan,teksound,materi78,SMA Negeri 8 Jakarta,Fisika kelas 11,Kimia kelas 11,Biologi kelas XI">
+  	<meta name="author" content="TEKSOUND 37">
+  	<meta property="og:title" content="Hubungi Kami | 8ELAJAR">
+	<meta property="og:description" content="Website ini memuat materi pelajaran siswa kelas XI MIPA SMAN 8 Jakarta. Rangkuman materi pada website ini terdiri dari 5 pelajaran utama, yaitu Fisika, Kimia, Biologi, Matematika Wajib, dan Matematika Minat.">
+	<meta property="og:url" content="https://www.8elajar.com/">
+	<meta property="og:site_name" content="8ELAJAR">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script>
+	document.onkeydown = function(e) {
+	        if (e.ctrlKey && 
+	            (e.keyCode === 67 || 
+	             e.keyCode === 86 || 
+	             e.keyCode === 85 || 
+	             e.keyCode === 117)) {
+	            return false;
+	        } else {
+	            return true;
+	        }
+	};
+	$(document).keypress("u",function(e) {
+	  if(e.ctrlKey)
+	  {
+	return false;
+	}
+	else
+	{
+	return true;
+	}
+	});
+	</script>
+
+</head>
+<body>
+
+	<div class="top">
+		<button class="back" onclick="window.location.href='Home.html'"><i class="fa fa-arrow-left fa-7x"aria-hidden="true"></i></button>
+
+		<div class="teks">CONTACT US</div>
+	</div>
+
+	<div class="form">
+		<form class="contactform" action="framework/php/contact.php">
+			<label>Your Name</label><br>
+			<input autocomplete="off" type="text" name="name" placeholder="Full Name" required=""><br>
+			<label>Your Email</label><br>
+			<input  autocomplete="off" type="text" name="Email" placeholder="my-email@gmail.com" required=""><br>
+			<label>Message</label><br>
+			<textarea class="area" name="Message" rows="3" cols="47" placeholder="Write your message !" required=""></textarea><br>
+			<button class="submitbutton">Send</button>
+		</form>
+	</div>
+
+	<div class="footer">
+		<h1>THANK YOU</h1>
+	</div>
+	
+</body>
+</html>

@@ -1,0 +1,38 @@
+body,html {
+	height: 100%;
+	margin : 0;
+}
+.gambar {
+	height: 100%;
+	background-image: url("../../img/backsoondesk.png");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.back {
+	border: none;
+	background-color: transparent;
+	width: 80px;
+	display: inline;
+	margin-left: 2px;
+	font-size: 60px;
+	color: white;
+}
+.back:hover {
+	color: black;
+}
+
+@media (max-width: 480px){
+	.gambar {
+	height: 100%;
+	background-image: url("../../img/backsoon.png");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+	}
+    .back {
+		font-size: 40px;
+		width: 50px;
+		margin-left: 2px;
+	}
+}

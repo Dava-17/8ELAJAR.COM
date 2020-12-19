@@ -1,0 +1,620 @@
+body {
+	margin: 0px;
+	height: 100%;
+	width: 100% 100%;
+	background-color: orange;
+}
+.top {
+	background-color: #FF4500;
+	background-size: 100% 100%;
+	height: 100%;
+	width: 100%;
+	display: inline-flex;
+	background-attachment: local;
+	overflow: hidden;
+}
+.logo {
+	padding-top: 5px;
+	padding-bottom: 9px;
+	margin-left: 5.5vw;
+	height: 82.5px;
+	width: 80px;
+}
+.fitur {
+	margin-top: 30px;
+	margin-left: 1.7vw;
+	height: auto;
+	width: 110px;
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: .1vw;
+	color: white;
+	background-color: transparent;
+	border: transparent;
+}
+.fa-caret-down {
+	margin-left: 1vw;
+}
+.dropdown {
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: #FFF5EE;
+    border-radius: 5%;
+    width: 7.7vw;
+    margin-left: 2vw;
+    font-size: 1.3vw;
+}
+.dropdown-child a {
+    border: none;
+  	background-color: transparent;
+  	color: black;
+    padding-left: .9vw;
+    border-bottom: 2px solid grey;
+    text-decoration: none;
+    display: block;
+    padding-top: .4vw;
+    padding-bottom: .4vw;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+    position: absolute;
+}
+.dropdown-child a:hover {
+	color: crimson; /*Ini setting disabled*/
+}
+span {
+	padding-right: 8px;
+	font-size: 18px;
+}
+.tentang-kami {
+	margin-left: 43%;
+}
+.team {
+	line-height: 10px;
+	background-color: transparent;
+	border : transparent;
+	color: white;
+	margin-top: 35px;
+	font-size: 18px;
+	font-family: arial;
+	font-weight: bold;
+	letter-spacing: .1vw;
+	width: 190px;
+}
+.team a:hover {
+	color: black;
+}
+.team a {
+	text-decoration: none;
+	color: white;
+}
+.search {
+	margin-top: 30px;
+}
+* {
+  box-sizing: border-box;
+}
+form.example input[type=text] {
+	margin-left: 35px;
+  	padding: 3px;
+  	font-size: 16px;
+  	border: 1px solid grey;
+  	width: 145px;
+  	background: #f1f1f1;
+}
+form.example button {
+	margin-left: 0px;	
+  width: 25px;
+  padding: 2.8px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+form.example button:hover {
+  background: #0b7dda;
+}
+.main {
+	height: 550px;
+	width: 100%;
+	margin: 0px;
+	background-image:url(../../img/background.png);
+	background-size: 85% 100%;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+#wrap {
+	text-align: center;
+	box-sizing: border-box;
+}
+.mulai {
+	background-color: red;
+	border-radius: 2em;
+	border : transparent;
+	padding: 10px;
+	right: 41.5vw;
+	position: absolute;
+	top : 460px;
+	color: white;
+	font-size: 2.18vw;
+}
+.mulai a {
+	text-decoration: none;
+	color: white;
+}
+.mulai:hover {
+   -webkit-box-shadow: 0px 20px 0px -10px #FFFFFF,
+    0px -20px 0px -10px #FFFFFF, 20px 0px 0px -10px #FFFFFF, 
+    -20px 0px 0px -10px #FFFFFF, 0px 0px 0px 10px #FF0000,
+    5px 5px 15px 5px rgba(0,0,0,0); 
+	box-shadow: 0px 15px 0px -10px #FFFFFF, 0px -15px 0px -10px #FFFFFF,
+	 15px 0px 0px -10px #FFFFFF, -15px 0px 0px -10px #FFFFFF, 
+	0px 0px 0px 10px #FF0000;
+}
+.footer {
+	margin: 0px;
+	height: 250px;
+	width: 100%;
+	background-color: #FF4500;
+	position: absolute;
+	overflow: hidden;	
+}
+.deskripsi span {
+	font-weight: 1000;
+	letter-spacing: 1.5px;
+	font-size: 18px;
+}
+.deskripsi {
+	float: left;
+	font-family: "Lucida Console";
+	margin-left: 10px;
+	width: 410px;
+	height: auto;
+	text-align: justify;
+	padding: 5px;
+	border: transparent;
+	font-size: 15px;
+	color: white;
+	line-height: 21px;
+}
+.salam {
+	margin-left: 35%;
+	position: absolute;
+	bottom: 0px;
+	color: #F8F8FF	;
+}
+.sekolah {
+	width: 315px;
+	height: 200px;
+	float: right;
+	margin-right: 3px;
+	margin-top: 20px;
+	color: white;
+}
+.desksman {
+	width: 100%;
+	height: 90px;
+	line-height: 50px;
+}
+.desksman .smandel {
+	float: left;
+	width: 60px;
+	height: 70px;
+}
+.desksman p {
+	float: left;
+	padding-left: 20px;
+	font-family: cursive;
+	font-size: 13px;
+}
+.desktx {
+	width: 100%;
+	height: 90px;
+	line-height: 50px;
+	float: left;
+}
+.desktx .tx {
+	float: left;
+	width: 70px;
+	height: 70px;
+}
+.desktx p {
+	float: left;
+	padding-left: 10px;
+	font-family: cursive;
+	font-size: 13px;
+}
+
+
+
+
+@media (max-width: 1204px){
+	.tentang-kami {
+		margin-left: 36%;
+	}
+	.dropdown-child {
+    display: none;
+    background-color: #FFF5EE;
+    border-radius: 5%;
+    width: 8.8vw;
+    margin-left: 2.5vw;
+    font-size: 16px;
+	}
+	.main {
+	height: 550px;
+	width: 100%;
+	margin: 0px;
+	background-image:url(../../img/background.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: top center;
+	}
+}
+
+@media (max-width: 1057px){
+	.tentang-kami {
+		margin-left: 25%;
+	}
+	.dropdown-child {
+    display: none;
+    background-color: #FFF5EE;
+    border-radius: 5%;
+    width: 88px;
+    margin-left: 2.5vw;
+    font-size: 16px;
+	}
+	.deskripsi {
+	margin-left: 5px;
+	width: 320px;
+	height: auto;
+	text-align: justify;
+	padding: 2px;
+	border: transparent;
+	font-size: 13px;
+	color: white;
+	}
+	.salam {
+	margin-left: 30%;
+	position: absolute;
+	bottom: 0px;
+	color: white;
+}
+}
+
+@media (max-width: 888px){
+	.tentang-kami {
+		margin-left: 10%;
+	}
+	.main {
+	height: 500px;
+	width: 100%;
+	margin: 0px;
+	background-image:url(../../img/background.png);
+	background-size: 95% 105%;
+	background-repeat: no-repeat;
+	background-position: top center;
+	}
+	.mulai {
+	background-color: red;
+	border-radius: 2em;
+	border : transparent;
+	padding: 10px;
+	right: 41vw;
+	position: absolute;
+	top : 440px;
+	color: white;
+	font-size: 2.18vw;
+	}
+	.salam {
+	margin-left: 25%;
+	position: absolute;
+	bottom: 0px;
+	color: white;
+	}
+	.mulai:hover {
+   -webkit-box-shadow: 0px 20px 0px -10px #FFFFFF,
+    0px -20px 0px -10px #FFFFFF, 20px 0px 0px -10px #FFFFFF, 
+    -20px 0px 0px -10px #FFFFFF, 0px 0px 0px 10px #FF0000,
+    5px 5px 15px 5px rgba(0,0,0,0); 
+	box-shadow: 0px 15px 0px -10px #FFFFFF, 0px -15px 0px -10px #FFFFFF,
+	 15px 0px 0px -10px #FFFFFF, -15px 0px 0px -10px #FFFFFF, 
+	0px 0px 0px 5px #FF0000;
+	}
+}
+
+@media (max-width: 732px){
+	.tentang-kami {
+		float: right;
+		margin-left: 19%;
+	}
+	.search {
+		display: none; ;
+	}
+	.dropdown-child {
+    display: none;
+    background-color: #FFF5EE;
+    border-radius: 5%;
+    width: 85px;
+    margin-left: 4vw;
+    font-size: 16px;
+	}
+	.main {
+	height: 480px;
+	width: 100%;
+	margin: 0px;
+	background-image:url(../../img/background.png);
+	background-size: 100% 80%;
+	background-repeat: no-repeat;
+	background-position: center;
+	}
+	.mulai {
+	background-color: red;
+	border-radius: 2em;
+	border : transparent;
+	padding: 10px;
+	right: 35vw;
+	position: absolute;
+	top : 385px;
+	color: white;
+	font-size: 24px!important;
+	}
+	.team {
+	font-size: 18px;
+	font-family: arial;
+	font-weight: bold;
+	width: 175px;
+	}
+	.footer {
+	margin: 0px;
+	height: 385px;
+	width: 100%;
+	background-color: #FF4500;
+	}
+	.salam {
+	display: none;
+	}
+	.sekolah {
+	float: left;
+	width: 505px;
+	height: 200px;
+	margin-top: 20px;
+	color: white;
+	}
+	.desksman {
+	width: 100%;
+	height: 90px;
+	line-height: 50px;
+	}
+	.desksman .smandel {
+		float: left;
+		width: 66.5px;
+		height: 70px;
+	}
+	.desksman p {
+		float: left;
+		padding-left: 20px;
+		font-family: cursive;
+		font-size: 13px;
+	}
+	.desktx {
+		width: 100%;
+		height: 90px;
+		line-height: 50px;
+		float: left;
+	}
+	.desktx .tx {
+		float: left;
+		width: 70px;
+		height: 70px;
+	}
+	.desktx p {
+		float: left;
+		padding-left: 10px;
+		font-family: cursive;
+		font-size: 13px;
+	}
+	.mulai {
+	background-color: red;
+	border-radius: 2em;
+	border : transparent;
+	padding: 5px;
+	color: white;
+	font-size: 2.18vw;
+	}
+}
+
+@media (max-width: 480px){
+	.logo {
+		padding-top: 5px;
+		padding-bottom: 9px;
+		margin-left: 5.5vw;
+		height: 55.5px;
+		width: 50px;
+	}
+	.fitur {
+	margin-top: 20px;
+	margin-left: 3.5vw;
+	height: auto;
+	width: 80px;
+	font-size: 15px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: white;
+	background-color: transparent;
+	border: transparent;
+	}
+	.fa-caret-down {
+		margin-left: 1.5vw;
+	}
+	.dropdown {
+	    display: inline-block;
+	}
+	.dropdown-child {
+	    display: none;
+	    background-color: #FFF5EE;
+	    border-radius: 5%;
+	    width: 80px;
+	    margin-left: 3.2vw;
+	    font-size: 13px;
+	}
+	.dropdown-child a {
+	    color: black;
+	    padding-left: 3px;
+	    border-bottom: 2px solid grey;
+	    text-decoration: none;
+	    display: block;
+	    padding-top: .4vw;
+	    padding-bottom: .4vw;
+	}
+	.dropdown:hover .dropdown-child {
+	    display: block;
+	    position: absolute;
+	}
+	.dropdown-child a:hover {
+		color: #666666;
+	}
+	span {
+		padding-right: 8px;
+		font-size: 16px;
+	}
+	.tentang-kami {
+		margin-left: 3%;
+	}
+	.team {
+		line-height: 10px;
+		background-color: transparent;
+		border : transparent;
+		color: white;
+		margin-top: 20px;
+		font-size: 14px;
+		font-family: arial;
+		font-weight: bold;
+		letter-spacing: .1vw;
+		width: 190px;
+	}
+	.team a {
+		text-decoration: none;
+		color: white;
+	}
+	.search {
+		margin-top: 3.6vh;
+	}
+	* {
+	  box-sizing: border-box;
+	}
+	form.example input[type=text] {
+		margin-left: 35px;
+	  	padding: 3px;
+	  	font-size: 16px;
+	  	border: 1px solid grey;
+	  	width: 145px;
+	  	background: #f1f1f1;
+	}
+	form.example button {
+		margin-left: 0px;	
+	  width: 25px;
+	  padding: 2.8px;
+	  background: #2196F3;
+	  color: white;
+	  font-size: 17px;
+	  border: 1px solid grey;
+	  border-left: none;
+	  cursor: pointer;
+	}
+	form.example button:hover {
+	  background: #0b7dda;
+	}
+	.main {
+	height: 440px;
+	width: 100%;
+	margin: 0px;
+	background-image:url(../../img/background.png);
+	background-size: 110% 70%;
+	background-repeat: no-repeat;
+	background-position: center;
+	}
+	.mulai {
+	background-color: red;
+	border-radius: 2em;
+	border : transparent;
+	padding: 10px;
+	right: 31vw;
+	position: absolute;
+	top : 330px;
+	color: white;
+	font-size: 18px!important;
+	font-family: 'Fredoka One', cursive;
+	}
+	.mulai:hover {
+   -webkit-box-shadow: 0px 5px 0px -5px #FFFFFF,
+    0px -5px 0px -5px #FFFFFF, 5px 0px 0px -5px #FFFFFF, 
+    -5px 0px 0px -5px #FFFFFF, 0px 0px 0px 5px #FF0000,
+    5px 5px 8px 5px rgba(0,0,0,0); 
+	box-shadow: 0px 7px 0px -5px #FFFFFF, 0px -7px 0px -5px #FFFFFF,
+	 7px 0px 0px -5px #FFFFFF, -7px 0px 0px -5px #FFFFFF, 
+	0px 0px 0px 5px #FF0000;
+	}
+	.footer {
+	margin: 0px;
+	height: 312px;
+	width: 100%;
+	background-color: #FF4500;
+	overflow: hidden;
+	}
+	.deskripsi {
+		font-size: 12px;
+		width: 300px;
+	}
+	.deskripsi span {
+		font-size: 14px;
+	}
+	.salam {
+	display: none;
+	}
+	.sekolah {
+	float: left;
+	width: 275px;
+	height: 115px;
+	margin-top: 10px;
+	color: white;
+	margin-left: 5px;
+	}
+	.desksman {
+	width: 100%;
+	height: 20px;
+	line-height: 30px;
+	}
+	.desksman .smandel {
+		float: left;
+		width: 47px;
+		height: 50px;
+	}
+	.desksman p {
+		float: left;
+		padding-left: 20px;
+		font-family: 'Play', sans-serif;
+		font-size: 12px;
+	}
+	.desktx {
+		margin-top: 5px;
+		width: 100%;
+		height: 60px;
+		line-height: 30px;
+		float: left;
+	}
+	.desktx .tx {
+		float: left;
+		width: 50px;
+		height: 48px;
+	}
+	.desktx p {
+		float: left;
+		padding-left: 10px;
+		font-family: 'Play', sans-serif;
+		font-size: 12px;
+	}
+}

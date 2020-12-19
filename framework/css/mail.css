@@ -1,0 +1,716 @@
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background-image: url(../../img/hack.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color : black;
+}
+.top {
+	margin-top: 0px;
+	height: 100px;
+}
+.back {
+	margin-top: 5px;
+	margin-left: 5px;
+	font-size: 60px;
+	background-color: transparent;
+	border: transparent;
+	color: white;
+	position: fixed;
+}
+.teks {
+	width: 593px;
+	padding-top: 0px;
+	color: white;
+	margin-left: 30%;
+	font-size: 72px;
+	font-family: 'Orbitron', sans-serif;
+	background-color: transparent;
+}
+.form {
+	margin-top: 5px;
+	height: 414px;
+	width: 593px;
+	margin-left: 28%;
+	border-radius: 20px;
+}
+.contactform {
+	width: 550px;
+	height: 370px;
+	font-size: 30px;
+	border-radius: 20px;
+	background-color : rgb(22, 22, 22, 0.9);
+	padding: 20px;
+}
+.contactform label {
+	margin: 15px;
+	color: white;
+}
+.contactform input {
+	color: black;
+	background-color: white;
+	border: none;
+	margin: 5px;
+	margin-left: 15px;
+	padding: 10px;
+	font-size: 16px;
+	width: 500px;
+}
+.contactform textarea {
+	margin: 5px;
+	margin-left: 15px;
+	padding: 15px;
+	font-size: 24px;
+	line-height: 23px;
+	resize: none;
+	font-family: 'Neucha', cursive;
+
+}
+.submitbutton {
+	color: white;
+	margin: 5px;
+	margin-left: 15px;
+	padding: 5px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	background-color : rgb(22, 22, 22, 0.6);
+	border: 1px solid white;
+	border-radius: .5em;
+	font-size: 27px;
+	cursor: pointer;
+}
+.footer {
+	margin-top: 35px;
+	height: 75px;
+	width: 100%;
+	background-color: rgba(14, 14, 18, 0.6);
+	overflow: hidden;
+	line-height: 0px;
+	}
+	.footer h1 {
+		margin-left: 35%;
+		font-size: 70px;
+		color: white;
+		font-family: 'Fira Mono', monospace;
+	}
+
+
+@media (max-width: 1050px){
+	.teks {
+		width: 593px;
+		padding-top: 0px;
+		color: white;
+		margin-left: 25.5%;
+		font-size: 72px;
+		font-family: 'Orbitron', sans-serif;
+		background-color: transparent;
+	}
+	.form {
+		margin-top: 5px;
+		height: 414px;
+		width: 593px;
+		margin-left: 23%;
+		border-radius: 20px;
+	}
+	.footer {
+		margin-top: 35px;
+		height: 78px;
+	}
+	.footer h1 {
+	margin-left: 33%;
+	font-size: 70px;
+	color: white;
+	font-family: 'Fira Mono', monospace;
+	}
+}
+
+@media (max-width: 940px){
+	.teks {
+	width: 593px;
+	padding-top: 0px;
+	color: white;
+	margin-left: 21%;
+	font-size: 72px;
+	font-family: 'Orbitron', sans-serif;
+	background-color: transparent;
+	}
+	.form {
+	margin-top: 5px;
+	height: 414px;
+	width: 593px;
+	margin-left: 18%;
+	border-radius: 20px;
+	}
+	.footer h1 {
+	margin-left: 29%;
+	font-size: 70px;
+	color: white;
+	font-family: 'Fira Mono', monospace;
+	}
+}
+
+@media (max-width: 850px){
+	.top {
+	margin-top: 0px;
+	height: 100px;
+	}
+	.back {
+	margin-top: 5px;
+	margin-left: 5px;
+	font-size: 60px;
+	background-color: transparent;
+	border: transparent;
+	color: white;
+	position: fixed;
+	}
+	.teks {
+	width: 593px;
+	padding-top: 0px;
+	color: white;
+	margin-left: 18%;
+	font-size: 72px;
+	font-family: 'Orbitron', sans-serif;
+	background-color: transparent;
+	}
+	.form {
+		margin-top: 5px;
+		height: 414px;
+		width: 593px;
+		margin-left: 15%;
+		border-radius: 20px;
+	}
+	.contactform {
+		width: 550px;
+		height: 370px;
+		font-size: 30px;
+		border-radius: 20px;
+		background-color : rgb(22, 22, 22, 0.9);
+		padding: 20px;
+	}
+	.contactform label {
+		margin: 15px;
+		color: white;
+	}
+	.contactform input {
+		color: black;
+		background-color: white;
+		border: none;
+		margin: 5px;
+		margin-left: 15px;
+		padding: 10px;
+		font-size: 16px;
+		width: 500px;
+	}
+	.contactform textarea {
+		margin: 5px;
+		margin-left: 15px;
+		padding: 15px;
+		font-size: 24px;
+		line-height: 23px;
+		resize: none;
+		font-family: 'Neucha', cursive;
+
+	}
+	.submitbutton {
+		color: white;
+		margin: 5px;
+		margin-left: 15px;
+		padding: 5px;
+		padding-top: 7px;
+		padding-bottom: 7px;
+		background-color : rgb(22, 22, 22, 0.6);
+		border: 1px solid white;
+		border-radius: .5em;
+		font-size: 27px;
+		cursor: pointer;
+	}
+	.footer {
+		margin-top: 35px;
+		height: 78px;
+		width: 100%;
+		background-color: rgba(14, 14, 18, 0.6);
+		overflow: hidden;
+		line-height: 0px;
+	}
+	.footer h1 {
+		margin-left: 28%;
+		font-size: 70px;
+		color: white;
+		font-family: 'Fira Mono', monospace;
+	}
+}
+
+@media (max-width: 780px){
+	.top {
+	margin-top: 0px;
+	height: 100px;
+	}
+	.back {
+	margin-top: 5px;
+	margin-left: 5px;
+	font-size: 60px;
+	background-color: transparent;
+	border: transparent;
+	color: white;
+	position: fixed;
+	}
+	.teks {
+	width: 500px;
+	padding-top: 0px;
+	color: white;
+	margin-left: 21.5%;
+	font-size: 50px;
+	font-family: 'Orbitron', sans-serif;
+	background-color: transparent;
+	}
+	.form {
+		margin-top: 5px;
+		height: 414px;
+		width: 500px;
+		margin-left: 17%;
+		border-radius: 20px;
+	}
+	.contactform {
+		width: 400px;
+		height: 370px;
+		font-size: 24px;
+		border-radius: 20px;
+		background-color : rgb(22, 22, 22, 0.9);
+		padding: 20px;
+	}
+	.contactform label {
+		margin: 15px;
+		color: white;
+	}
+	.contactform input {
+		color: black;
+		background-color: white;
+		border: none;
+		margin: 5px;
+		margin-left: 15px;
+		padding: 10px;
+		font-size: 16px;
+		width: 355px;
+	}
+	.contactform textarea {
+		margin: 5px;
+		margin-left: 15px;
+		padding: 15px;
+		font-size: 24px;
+		line-height: 23px;
+		resize: none;
+		font-family: 'Neucha', cursive;
+	}
+	.area {
+		width: 300px;
+	}
+	.submitbutton {
+		color: white;
+		margin: 5px;
+		margin-left: 15px;
+		padding: 5px;
+		padding-top: 7px;
+		padding-bottom: 7px;
+		background-color : rgb(22, 22, 22, 0.6);
+		border: 1px solid white;
+		border-radius: .5em;
+		font-size: 27px;
+		cursor: pointer;
+	}
+	.footer {
+		margin-top: 28px;
+		height: 85px;
+		width: 100%;
+		background-color: rgba(14, 14, 18, 0.6);
+		overflow: hidden;
+		line-height: 0px;
+	}
+	.footer h1 {
+		margin-left: 21.5%;
+		font-size: 70px;
+		color: white;
+		font-family: 'Fira Mono', monospace;
+	}
+}
+
+@media (max-width: 735px){
+	.top {
+	margin-top: 0px;
+	height: 100px;
+	width: 100%;
+	}
+	.back {
+	margin-top: 5px;
+	margin-left: 5px;
+	font-size: 60px;
+	background-color: transparent;
+	border: transparent;
+	color: white;
+	position: fixed;
+	}
+	.teks {
+	width: 440px;
+	padding-top: 0px;
+	color: white;
+	margin-left: 18%;
+	font-size: 50px;
+	font-family: 'Orbitron', sans-serif;
+	background-color: transparent;
+	}
+	.form {
+		margin-top: 5px;
+		height: 414px;
+		width: 440px;
+		margin-left: 13%;
+		border-radius: 20px;
+	}
+	.contactform {
+		width: 400px;
+		height: 370px;
+		font-size: 24px;
+		border-radius: 20px;
+		background-color : rgb(22, 22, 22, 0.9);
+		padding: 20px;
+	}
+	.contactform label {
+		margin: 15px;
+		color: white;
+	}
+	.contactform input {
+		color: black;
+		background-color: white;
+		border: none;
+		margin: 5px;
+		margin-left: 15px;
+		padding: 10px;
+		font-size: 16px;
+		width: 355px;
+	}
+	.contactform textarea {
+		margin: 5px;
+		margin-left: 15px;
+		padding: 15px;
+		font-size: 24px;
+		line-height: 23px;
+		resize: none;
+		font-family: 'Neucha', cursive;
+	}
+	.area {
+		width: 300px;
+	}
+	.submitbutton {
+		color: white;
+		margin: 5px;
+		margin-left: 15px;
+		padding: 5px;
+		padding-top: 7px;
+		padding-bottom: 7px;
+		background-color : rgb(22, 22, 22, 0.6);
+		border: 1px solid white;
+		border-radius: .5em;
+		font-size: 27px;
+		cursor: pointer;
+	}
+	.footer {
+		margin-top: 28px;
+		height: 81px;
+		width: 100%;
+		background-color: rgba(14, 14, 18, 0.6);
+		overflow: hidden;
+		line-height: 0px;
+	}
+	.footer h1 {
+		margin-left: 17.5%;
+		font-size: 70px;
+		color: white;
+		font-family: 'Fira Mono', monospace;
+	}
+
+}
+
+@media (max-width: 640px){
+	.top {
+	margin-top: 0px;
+	height: 100px;
+	width: 100%;
+	}
+	.back {
+	margin-top: 5px;
+	margin-left: 5px;
+	font-size: 40px;
+	background-color: transparent;
+	border: transparent;
+	color: white;
+	position: fixed;
+	}
+	.teks {
+	width: 420px;
+	padding-top: 10px;
+	color: white;
+	margin-left: 17%;
+	font-size: 40px;
+	font-family: 'Orbitron', sans-serif;
+	background-color: transparent;
+	}
+	.form {
+		margin-top: 5px;
+		height: 414px;
+		width: 410px;
+		margin-left: 7%;
+		border-radius: 20px;
+	}
+	.contactform {
+		width: 370px;
+		height: 370px;
+		font-size: 20px;
+		border-radius: 20px;
+		background-color : rgb(22, 22, 22, 0.9);
+		padding: 20px;
+	}
+	.contactform label {
+		margin: 15px;
+		color: white;
+	}
+	.contactform input {
+		color: black;
+		background-color: white;
+		border: none;
+		margin: 5px;
+		margin-left: 15px;
+		padding: 10px;
+		font-size: 14px;
+		width: 320px;
+	}
+	.contactform textarea {
+		margin: 5px;
+		margin-left: 15px;
+		padding: 15px;
+		font-size: 20px;
+		line-height: 20px;
+		resize: none;
+		font-family: 'Neucha', cursive;
+	}
+	.area {
+		width: 280px;
+	}
+	.submitbutton {
+		color: white;
+		margin: 5px;
+		margin-left: 15px;
+		padding: 5px;
+		padding-top: 7px;
+		padding-bottom: 7px;
+		background-color : rgb(22, 22, 22, 0.6);
+		border: 1px solid white;
+		border-radius: .5em;
+		font-size: 24px;
+		cursor: pointer;
+	}
+	.footer {
+		margin-top: 28px;
+		height: 81px;
+		width: 100%;
+		background-color: rgba(14, 14, 18, 0.6);
+		overflow: hidden;
+		line-height: 0px;
+	}
+	.footer h1 {
+		margin-left: 18%;
+		font-size: 50px;
+		color: white;
+		font-family: 'Fira Mono', monospace;
+	}
+}
+
+@media (max-width: 515px){
+	.top {
+	margin-top: 0px;
+	height: 100px;
+	width: 100%;
+	}
+	.back {
+	margin-top: 5px;
+	margin-left: 5px;
+	font-size: 40px;
+	background-color: transparent;
+	border: transparent;
+	color: white;
+	position: fixed;
+	}
+	.teks {
+	width: 330px;
+	padding-top: 10px;
+	color: white;
+	margin-left: 18%;
+	font-size: 40px;
+	font-family: 'Orbitron', sans-serif;
+	background-color: transparent;
+	}
+	.form {
+		margin-top: 5px;
+		height: 414px;
+		width: 410px;
+		margin-left: 7%;
+		border-radius: 20px;
+	}
+	.contactform {
+		width: 370px;
+		height: 370px;
+		font-size: 20px;
+		border-radius: 20px;
+		background-color : rgb(22, 22, 22, 0.9);
+		padding: 20px;
+	}
+	.contactform label {
+		margin: 15px;
+		color: white;
+	}
+	.contactform input {
+		color: black;
+		background-color: white;
+		border: none;
+		margin: 5px;
+		margin-left: 15px;
+		padding: 10px;
+		font-size: 14px;
+		width: 320px;
+	}
+	.contactform textarea {
+		margin: 5px;
+		margin-left: 15px;
+		padding: 15px;
+		font-size: 20px;
+		line-height: 20px;
+		resize: none;
+		font-family: 'Neucha', cursive;
+	}
+	.area {
+		width: 280px;
+	}
+	.submitbutton {
+		color: white;
+		margin: 5px;
+		margin-left: 15px;
+		padding: 5px;
+		padding-top: 7px;
+		padding-bottom: 7px;
+		background-color : rgb(22, 22, 22, 0.6);
+		border: 1px solid white;
+		border-radius: .5em;
+		font-size: 20px;
+		cursor: pointer;
+	}
+	.footer {
+		margin-top: 28px;
+		height: 81px;
+		width: 100%;
+		background-color: rgba(14, 14, 18, 0.6);
+		overflow: hidden;
+		line-height: 0px;
+	}
+	.footer h1 {
+		margin-left: 20%;
+		font-size: 50px;
+		color: white;
+		font-family: 'Fira Mono', monospace;
+	}
+}
+
+@media (max-width: 480px){
+	body {
+	height: 100%;
+	}
+	.top {
+	margin-top: 10px;
+	height: 60px;
+	width: 100%;
+	}
+	.back {
+	margin-top: 2px;
+	margin-left: 2px;
+	font-size: 28px;
+	background-color: transparent;
+	border: transparent;
+	color: white;
+	position: fixed;
+	}
+	.teks {
+	width: 270px;
+	padding-top: 4px;
+	color: white;
+	margin-left: 19.5%;
+	font-size: 32px;
+	font-family: 'Orbitron', sans-serif;
+	background-color: transparent;
+	}
+	.form {
+		margin-top: 5px;
+		height: 320px;
+		width: 310px;
+		margin-left: 8.5%;
+		border-radius: 20px;
+	}
+	.contactform {
+		width: 270px;
+		height: 280px;
+		font-size: 16px;
+		border-radius: 20px;
+		background-color : rgb(22, 22, 22, 0.9);
+		padding: 20px;
+	}
+	.contactform label {
+		margin: 0px;
+		color: white;
+	}
+	.contactform input {
+		color: black;
+		background-color: white;
+		border: none;
+		margin: 5px;
+		margin-left: 0px;
+		padding: 10px;
+		font-size: 14px;
+		width: 250px;
+	}
+	.contactform textarea {
+		margin: 5px;
+		margin-left: 0px;
+		padding: 15px;
+		font-size: 17px;
+		line-height: 20px;
+		resize: none;
+		font-family: 'Neucha', cursive;
+	}
+	.area {
+		width: 200px;
+	}
+	.submitbutton {
+		color: white;
+		margin: 5px;
+		margin-left: 0px;
+		padding: 5px;
+		padding-top: 7px;
+		padding-bottom: 7px;
+		background-color : rgb(22, 22, 22, 0.6);
+		border: 1px solid white;
+		border-radius: .5em;
+		font-size: 20px;
+		cursor: pointer;
+	}
+	.footer {
+		margin-top: 28px;
+		height: 81px;
+		width: 100%;
+		background-color: rgba(14, 14, 18, 0.6);
+		overflow: hidden;
+		line-height: 0px;
+	}
+	.footer h1 {
+		margin-left: 28%;
+		font-size: 36px;
+		color: white;
+		font-family: 'Fira Mono', monospace;
+	}
+}
