@@ -644,7 +644,8 @@ p {
 		margin-right: auto;
 	}
 	.bab5 p {
-		margin-top: 12px;
+		margin-top: 0px;
+		font-size: 24px;
 	}
 	.bab6 {
 	background-color: white;
