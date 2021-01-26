@@ -643,6 +643,9 @@ p {
 		margin-left: auto;
 		margin-right: auto;
 	}
+	.bab5 p {
+		margin-top: 12px;
+	}
 	.bab6 {
 	background-color: white;
 	width: 250px;
